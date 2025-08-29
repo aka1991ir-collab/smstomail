@@ -1,0 +1,21 @@
+name: sms_to_gmail
+description: Forward SMS messages to Gmail with filters
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  googleapis: ^12.0.0
+  googleapis_auth: ^1.6.0
+  flutter_secure_storage: ^8.0.0
+  sqflite: ^2.2.0+3
+  path: ^1.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
